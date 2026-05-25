@@ -1,6 +1,6 @@
 ---
 title: So It Begins
-date: 2026-05-26 HH:MM:SS +0800
+date: 2026-05-26 11:32:30 +0800
 categories: [Software Development, Game Development]
 tags: [game development]     # TAG names should always be lowercase
 ---
