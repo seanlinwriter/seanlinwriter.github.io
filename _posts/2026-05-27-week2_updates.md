@@ -1,5 +1,5 @@
 ---
-title: "Weekly Updates: May 27, 2026"
+title: "Week 2 Updates: May 27, 2026"
 date: 2026-05-27 01:00:30 +0800
 categories: [CSPB, Weekly Updates]
 tags: [game-dev, cspb]     # TAG names should always be lowercase
