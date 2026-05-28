@@ -5,7 +5,7 @@ categories: [CSPB, Project Proposal]
 tags: [game-dev, cspb]     # TAG names should always be lowercase
 ---
 
-### Moltivation
+### Motivation
 
 I plan to create a prototype for my own video game, a puzzle game using standard playing cards. A video game is a complex software project that I believe will teach me many essential skills in computer science and software engineering, including but not limited to data structures and algorithms, design patterns, product design, project management, testing, and deployment. I will use Unity and C# to implement this game, and thus this project will also teach me a widely used game engine and a popular programming language.
 
@@ -22,11 +22,13 @@ The game contains two boards, each of which is a 6 x 6 grid. Each player receive
 ![Wireframe 1](../assets/img/wireframe_1.png)
 
 Players can select one to five cards. If we select more than one card, selected cards must be orthogonally connected. These cards must form a valid poker hand, including:
-•	One card: Single
-•	Two cards: Pair
-•	Three cards: Three of a kind (without two kicker cards)
-•	Four cards: Invalid
-•	Five cards: Two pair, flush, straight, full house, straight flush, four of a kind (with a kicker card)
+
+- One card: Single
+- Two cards: Pair
+- Three cards: Three of a kind (without two kicker cards)
+- Four cards: Always invalid
+- Five cards: Two pair, flush, straight, full house, straight flush, four of a kind (with a kicker card)
+
 Here we see five cards forming a valid full house (highlighted in blue), which are orthogonally connected. These five cards are sent to the table. 
 
 ![Wireframe 2](../assets/img/wireframe_2.png)
