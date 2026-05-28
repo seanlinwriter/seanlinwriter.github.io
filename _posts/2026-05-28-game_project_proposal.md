@@ -37,13 +37,13 @@ Now the opponent needs to answer with a stronger full house. Players are require
 
 ![Wireframe 3](../assets/img/wireframe_3.png)
 
-Every time we send a hand to the table, we gain points, which are calculated by card ranks and hand rarity. Each player increases their own score as the game progresses and as cards get removed from their own boards.
+Every time we send a hand to the table, we gain points, which are calculated by card ranks and hand rarity. Each player increases their own raw score as the game progresses and as cards get removed from their own boards.
 
 A game ends when one of player clears the entire board before the other does. The winner of the game can redeem 100% of raw score acquired in this game. The loser only redeems 50% of raw score. It is thus important to both win a game and to send valuable hands. The winner also receives a bonus based on how many cards the loser still holds when a game ends. The bonus will be substantial for a landslide victory. A duel can consist of multiple games. The player who has the higher cumulative score wins the duel.
 
 ### Math & AI
 
-Mathematically, we can have P(52, 36) = 52!/16! permutations or board layouts for this game. This is an astronomical number. In practice, I will just use a seeding system to deterministically shuffle the deck so that the game can predicably create a specific board, which will be useful for level design. A seed is a large integer that goes through a chain of arithmetic operations to produce deterministic position indices for shuffling. My seeding will use 6 characters in a base-32 system. This allows me to support up to 32^5 seeds (approximately 1 billion). I believe this should be more than sufficient for an indie game.
+Mathematically, we can have P(52, 36) = 52!/16! permutations or board layouts for this game. This is an astronomical number. In practice, I will just use a seeding system to deterministically shuffle the deck so that the game can predicably create a specific board, which will be useful for level design. A seed is a large integer that goes through a chain of arithmetic operations to produce deterministic position indices for shuffling. My seed ID will use 6 characters in a base-32 system. This allows me to support up to 32^6 seeds (approximately 1 billion). I believe this should be more than sufficient for an indie game.
 
 I plan to display the seed ID of a board on the user interface and provide a copy button. I will add a feature that enables players to enter a seed to generate a specific board so that they can replay a board that they find interesting or challenging.
 
@@ -53,11 +53,11 @@ Due to the mathematical complexity of this game, it requires a competent enemy A
 
 Here is a check list of goals that I plan to complete:
 
-•	Learn Unity 2D and C# (just enough to make this game)
-•	Learn design patterns for video games
-•	Complete the specification for the base game
-•	Design core data structures and algorithms 
-•	Implement the essential game mechanics
-•	Implement a simple yet functional user interface
-•	Implement an active enemy AI (possibly implemented with minimax and heuristic-based decision making)
-•	Deliver a playable build in the format of WebGL, possibly hosted on Itch.io with restricted visibility
+- Learn Unity 2D and C# (just enough to make this game)
+- Learn design patterns for video games
+- Complete the specification for the base game
+- Design core data structures and algorithms 
+- Implement the essential game mechanics
+- Implement a simple yet functional user interface
+- Implement an active enemy AI (possibly implemented with minimax and heuristic-based decision making)
+- Deliver a playable build in the format of WebGL, possibly hosted on Itch.io with restricted visibility
