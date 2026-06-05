@@ -5,13 +5,17 @@ categories: [CSPB, Project Proposal]
 tags: [game-dev, cspb]     # TAG names should always be lowercase
 ---
 
+### Vision Statement
+
+I plan to create a prototype for my own video game, a grid-based puzzle game using standard playing cards. A video game is a complex software project that I believe will walk me through the entire software development cycle, thus help me develop many essential skills.
+
 ### Motivation
 
-I plan to create a prototype for my own video game, a puzzle game using standard playing cards. A video game is a complex software project that I believe will teach me many essential skills in computer science and software engineering, including but not limited to data structures and algorithms, design patterns, product design, project management, testing, and deployment. I will use Unity and C# to implement this game, and thus this project will also teach me a widely used game engine and a popular programming language.
+I always enjoy creative projects. For this project, I aim to combine my creativity with my technical skill development in one game. Instead of a toy, I plan to create a product that is both technically solid and commercially viable. This game will teach me many topics in computer science and software engineering, including but not limited to data structures and algorithms, design patterns, product design, project management, testing, and deployment. I will use Unity and C# to implement this game, and thus this project will also teach me a widely used game engine and a popular programming language.
 
-### Goal
+### Risk Mitigation
 
-Even though this game does not rely on fancy graphics, it still requires an immense endeavor as a mid-sized project. Due to time constraints, I will solely focus on CS-related aspects of this game, using simple ready-made art assets. By the end of this summer, I will deliver a playable build, which will be a simple prototype that contains the base game with essential mechanics and with an active enemy AI. This prototype will not include any art or music or characters or narrative elements.
+Even though this game does not rely on fancy graphics, it still requires an immense effort as a semester project. Due to time constraints, I will solely focus on CS-related aspects of this game, using simple ready-made art assets. By the end of this summer, I will deliver a playable build, which will be a simple prototype that contains the base game with essential mechanics and with an active enemy AI. Note that this prototype will not include any art or music or characters or narrative elements.
 
 ### Game Design
 
