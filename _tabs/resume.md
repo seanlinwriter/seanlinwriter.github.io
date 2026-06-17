@@ -5,6 +5,7 @@ order: 5
 ---
 
 ## Sean Lin
+Taipei, Taiwan
 
 ### Profile
 
@@ -16,11 +17,10 @@ Principal Technical Writer, QNAP Systems, Inc. (2016 - Present)
 
 ### Education
 
-Bachelor of Science in Applied Computer Science - University of Colorado, Boulder (Expected in 2028)
+#### Bachelor of Science in Applied Computer Science
+University of Colorado, Boulder (Expected in 2028)
 
-Coursework 
-
-GPA: 4.0/4.0
+Coursework (GPA: 4.0/4.0)
 
 - Intro to CS
 - Data Structures
@@ -29,9 +29,8 @@ GPA: 4.0/4.0
 - Discrete Structures
 - Linear Algebra
 
-Bachelor of Arts in Foreign Languages and Literature - National Taiwan University
-
-With a minor in Chinese Literature
+#### Bachelor of Arts in Foreign Languages and Literature
+National Taiwan University
 
 GPA: 4.15/4.3
 
