@@ -13,11 +13,13 @@ I have written pure C# scripts (i.e. those that do not need Unity to run) for so
 
 So far, I can randomly generate a seed ID, use this seed ID to shuffle a card deck, populate the board with the shuffled deck, and then print the board data and show the seed ID. In the following screenshot, you can see that each board has a corresponding seed ID.
 
+![dotnet console test 1](../assets/img/csharp_console_test_1.png)
 
 I also designed a grid structure and coordinate system following the conventions of computer graphics. This will be very important for my next step, which is to verify card connectivity. It will also be used by the input system and by my AI to explore potential legal hands on a board.
 
 Since my art skills are lacking, I asked ChatGPT to generate a cheat sheet based on my design. I need to be extra careful about card positions, indices, and coordinates in this game. The cheat sheet has been very helpful.
 
+![grid structure and coordinate system](../assets/img/grid%20coordindate.png)
 
 ### What I am doing:
 
