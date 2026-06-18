@@ -4,6 +4,8 @@ icon: fa-regular fa-file
 order: 5
 ---
 
+[Download File](../assets/pdf/Sean_Lin_Resume.pdf)
+
 ## Sean Lin
 Taipei, Taiwan
 
