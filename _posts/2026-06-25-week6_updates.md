@@ -27,7 +27,7 @@ Queen of Hearts
 King of Diamonds
 Ace of Diamonds
 
-![console card selector]((../assets/img/screenshot_console_card_selector.png))
+![console card selector](../assets/img/screenshot_console_card_selector.png)
 
 
 ### What I am doing
